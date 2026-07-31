@@ -19,15 +19,15 @@ framing and must never be quoted on this public page.
 
 ## Provenance
 
-| Thing                                                          | Source                                                             |
-| -------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Episode numbers, titles, descriptions, dates, durations, GUIDs, byte lengths, audio URLs | `feed.xml` from the show's own published RSS feed |
-| "Links mentioned"                                              | `Episodes/tae-episode-NNN/*.txt` show-note files                    |
-| Episode title cards (eps 015–037)                              | artwork shipped in each `Episodes/tae-episode-NNN/` folder          |
-| Album cover                                                    | `Media/Podcast/`                                                    |
-| Wordmark, "TAE" mark, brand colors, typefaces                  | `Media/Logo Pack/` — the brand sheet is `1x/Artboard 1.png`         |
-| Host photos                                                    | `Media/Bios/`                                                       |
-| Framing of when and why the show started/stopped               | the owner's own public blog post, 2017-09-20                        |
+| Thing                                                                                    | Source                                                      |
+| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Episode numbers, titles, descriptions, dates, durations, GUIDs, byte lengths, audio URLs | `feed.xml` from the show's own published RSS feed           |
+| "Links mentioned"                                                                        | `Episodes/tae-episode-NNN/*.txt` show-note files            |
+| Episode title cards (eps 015–037)                                                        | artwork shipped in each `Episodes/tae-episode-NNN/` folder  |
+| Album cover                                                                              | `Media/Podcast/`                                            |
+| Wordmark, "TAE" mark, brand colors, typefaces                                            | `Media/Logo Pack/` — the brand sheet is `1x/Artboard 1.png` |
+| Host photos                                                                              | `Media/Bios/`                                               |
+| Framing of when and why the show started/stopped                                         | the owner's own public blog post, 2017-09-20                |
 
 Source material lives outside this repo at
 `~/Documents/Clients/The Average Enthusiasts`. It is **not** vendored here.
@@ -64,11 +64,11 @@ will overwrite you.
 
 There are three feed files, all emitted by the same `channel_xml()`:
 
-| File                      | URL                                                    | Role                                        |
-| ------------------------- | ------------------------------------------------------ | ------------------------------------------- |
-| `src/feed/feed.xml`       | `https://www.theaverageenthusiasts.com/feed/feed.xml`  | **canonical** — the feed going forward      |
-| `src/podcast/feed.xml`    | `…/podcast/feed.xml`                                   | alias at the historic path shape            |
-| `legacy/assets-feed.xml`  | uploaded over the Azure blob's `podcast/feed.xml`      | migrates existing subscribers               |
+| File                     | URL                                                   | Role                                   |
+| ------------------------ | ----------------------------------------------------- | -------------------------------------- |
+| `src/feed/feed.xml`      | `https://www.theaverageenthusiasts.com/feed/feed.xml` | **canonical** — the feed going forward |
+| `src/podcast/feed.xml`   | `…/podcast/feed.xml`                                  | alias at the historic path shape       |
+| `legacy/assets-feed.xml` | uploaded over the Azure blob's `podcast/feed.xml`     | migrates existing subscribers          |
 
 Two contracts hold this together:
 
@@ -141,8 +141,60 @@ npm run build   # emits _site/
   `<link>` for Bebas Neue + Bodoni Moda, justified by brand fidelity. Don't add
   a second third-party origin.
 - `CNAME` is load-bearing and is copied into `_site/` by the build.
-- **The page must work without JavaScript.** There is none today; keep it that
-  way. Audio uses the native `<audio>` element.
+- **`src/player.js` is the only JavaScript**, and it is progressive
+  enhancement — see below.
+
+## The player
+
+`src/player.js` is the **shared archive player**, byte-identical (below the
+header comment) to the one on `lostinsanity.net`, `blythe-band.com` and
+`reachableheights.com`. Keep it that way: fix a bug here, port it there.
+
+It expects these DOM hooks, so don't rename them:
+
+```html
+<div class="ep-list" data-playlist data-record="Season 1">
+  <article
+    class="ep track"
+    data-src="<absolute blob URL>"
+    data-title="Introduction"
+    data-seconds="498"
+  >
+    <button class="track-btn">
+      <svg class="i-play">…</svg><svg class="i-pause hidden">…</svg>
+    </button>
+    <span class="track-elapsed"></span>
+    <div class="track-seek hidden"><div class="track-fill"></div></div>
+  </article>
+</div>
+```
+
+plus the sticky bar `#player` with `#pl-{title,record,play,prev,next,seek,cur,dur,close}`.
+
+Rules:
+
+- **`data-seconds` must match the printed duration.** It is what the bar shows
+  before metadata loads. Both come from `dur_seconds()`, so they can't drift.
+- Episodes are grouped into playlists by the nearest `[data-playlist]` ancestor;
+  `data-record` on it is the label in the bar. **Auto-advance and prev/next stay
+  inside one season** — finishing the last Season 1 episode does not roll into
+  Season 2.
+- Player styles live in `@layer components`. **Tailwind utilities always beat
+  that layer regardless of specificity**, so a state rule like
+  `.ep.is-active .ep-title` only works while the `<h3>` carries no competing
+  utility class. Don't add `text-white` to it in the markup.
+- `preload="none"` is intentional — nothing is fetched until a play button is
+  pressed. On a 958 MB archive that matters.
+- **The page degrades honestly without JavaScript.** Every episode keeps its
+  `Download MP3` link, and a `<noscript>` block above the seasons says so. The
+  page must never depend on JS to _reach_ content.
+
+Before publishing, confirm every `data-src` resolves:
+
+```sh
+grep -o 'data-src="[^"]*"' _site/index.html | sed 's/data-src="//;s/"//' \
+  | while read u; do echo "$(curl -sS -o /dev/null -w '%{http_code}' -I "$u") $u"; done
+```
 
 ## Deploying
 

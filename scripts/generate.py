@@ -102,6 +102,14 @@ def mmss(dur):
     return f"{h}h {m}m" if h else f"{m} min"
 
 
+def clock(dur):
+    """m:ss / h:mm:ss — matches the elapsed counter and the sticky player."""
+    total = dur_seconds(dur)
+    h, rem = divmod(total, 3600)
+    m, s = divmod(rem, 60)
+    return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
+
+
 def episode_html(e):
     if e["art"]:
         art = f"""
@@ -138,8 +146,9 @@ def episode_html(e):
             </p>
           </details>"""
     mb = f"{e['bytes'] / 1_048_576:.0f}&nbsp;MB"
+    secs = dur_seconds(e["duration"])
     return f"""
-      <article id="{e['slug']}" class="ep">
+      <article id="{e['slug']}" class="ep track" data-src="{E(e['audio'])}" data-title="{E(e['short'])}" data-seconds="{secs}">
         <div class="ep-art">{art}
         </div>
         <div class="ep-body">
@@ -147,11 +156,17 @@ def episode_html(e):
             <span class="ep-num">{e['num']:03d}</span>
             <time datetime="{e['date']}">{PRETTY_DATE(e['date'])}</time>
             <span aria-hidden="true">&middot;</span>
-            <span>{mmss(e['duration'])}</span>
+            <span><span class="track-elapsed"></span>{clock(e['duration'])}</span>
           </p>
-          <h3 class="ep-title">{E(e['short'])}</h3>
+          <div class="ep-head">
+            <button type="button" class="track-btn" aria-label="Play {E(e['short'])}">
+              <svg viewBox="0 0 24 24" class="i-play h-4 w-4" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+              <svg viewBox="0 0 24 24" class="i-pause hidden h-4 w-4" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+            </button>
+            <h3 class="ep-title">{E(e['short'])}</h3>
+          </div>
+          <div class="track-seek mt-3 hidden" aria-hidden="true"><div class="track-fill"></div></div>
           <p class="ep-desc">{E(e['desc'])}</p>
-          <audio controls preload="none" src="{E(e['audio'])}"></audio>
           <p class="ep-dl">
             <a href="{E(e['audio'])}" download>Download MP3</a>
             <span aria-hidden="true">&middot;</span>
@@ -182,7 +197,7 @@ def build_index(eps):
           <p class="season-dates">{s['dates']}</p>
           <p class="season-blurb">{s['blurb']}</p>
         </div>
-        <div class="ep-list">
+        <div class="ep-list" data-playlist data-record="{s['label']}">
 {body}
         </div>
       </div>
@@ -405,6 +420,14 @@ TEMPLATE = """<!doctype html>
         <div class="epnav-links">
           {nav}
         </div>
+        <noscript>
+          <p class="epnav-noscript">
+            The inline player needs JavaScript. Without it, every episode is
+            still here &mdash; use the <strong>Download MP3</strong> link on each
+            one, or
+            <a href="/feed/">subscribe to the feed</a>.
+          </p>
+        </noscript>
       </div>
     </nav>
 {sections}
@@ -457,6 +480,44 @@ TEMPLATE = """<!doctype html>
         </p>
       </div>
     </footer>
+
+    <!-- ── sticky player ──────────────────────────────────────────────── -->
+    <div
+      id="player"
+      aria-hidden="true"
+      class="fixed inset-x-0 bottom-0 z-50 translate-y-full border-t border-tae-red-deep bg-tae-ink/95 backdrop-blur transition-transform duration-300"
+    >
+      <div class="wrap flex items-center gap-3 py-3 sm:gap-4">
+        <div class="flex items-center gap-1">
+          <button type="button" id="pl-prev" class="pl-btn hidden sm:grid" aria-label="Previous episode">
+            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="currentColor" aria-hidden="true"><path d="M7 6h2v12H7zm3 6 8 6V6z"/></svg>
+          </button>
+          <button type="button" id="pl-play" class="pl-btn pl-btn-main" aria-label="Play">
+            <svg viewBox="0 0 24 24" class="i-play h-5 w-5" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            <svg viewBox="0 0 24 24" class="i-pause hidden h-5 w-5" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+          </button>
+          <button type="button" id="pl-next" class="pl-btn hidden sm:grid" aria-label="Next episode">
+            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="currentColor" aria-hidden="true"><path d="M15 6h2v12h-2zM6 18l8-6-8-6z"/></svg>
+          </button>
+        </div>
+        <div class="min-w-0 flex-1">
+          <p class="truncate text-sm">
+            <span id="pl-title" class="font-bold text-white">&nbsp;</span>
+            <span id="pl-record" class="font-mono text-xs tracking-widest text-stone-500 uppercase"></span>
+          </p>
+          <div class="mt-1.5 flex items-center gap-2">
+            <span id="pl-cur" class="w-9 shrink-0 text-right font-mono text-[11px] tabular-nums text-stone-500">0:00</span>
+            <input id="pl-seek" class="seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Seek" />
+            <span id="pl-dur" class="w-9 shrink-0 font-mono text-[11px] tabular-nums text-stone-500">0:00</span>
+          </div>
+        </div>
+        <button type="button" id="pl-close" class="pl-btn" aria-label="Close player">
+          <svg viewBox="0 0 24 24" class="h-4 w-4" fill="currentColor" aria-hidden="true"><path d="m19 6.4-1.4-1.4-5.6 5.6-5.6-5.6L5 6.4l5.6 5.6L5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="/player.js" defer></script>
   </body>
 </html>
 """
