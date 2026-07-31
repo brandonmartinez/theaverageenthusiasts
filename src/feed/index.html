@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Subscribe &mdash; The Average Enthusiasts</title>
+    <meta
+      name="description"
+      content="The RSS feed for The Average Enthusiasts, and what happened to the old assets.theaverageenthusiasts.com feed URL."
+    />
+    <link rel="canonical" href="https://www.theaverageenthusiasts.com/feed/" />
+    <link rel="icon" href="/images/mark.svg" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="The Average Enthusiasts"
+      href="https://www.theaverageenthusiasts.com/feed/feed.xml"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Subscribe &mdash; The Average Enthusiasts" />
+    <meta
+      property="og:image"
+      content="https://www.theaverageenthusiasts.com/images/albumcover.jpg"
+    />
+  </head>
+
+  <body class="antialiased">
+    <div class="banner">
+      <div class="wrap flex flex-col gap-1 py-3 sm:flex-row sm:items-baseline sm:gap-4">
+        <p class="banner-tag">Archive</p>
+        <p class="banner-text">
+          The show ended in October 2021. The feed is kept alive so the back
+          catalogue stays playable &mdash; not because more is coming.
+          <a href="/">Back to the episodes</a>
+        </p>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="wrap py-10 sm:py-14">
+        <a href="/" class="no-underline">
+          <img
+            src="/images/wordmark.svg"
+            alt="The Average Enthusiasts"
+            width="500"
+            height="326"
+            class="w-full max-w-xs"
+          />
+        </a>
+        <p class="tagline">The feed.</p>
+      </div>
+    </header>
+
+    <section class="story">
+      <div class="wrap">
+        <h2 class="section-h">Subscribe</h2>
+        <div class="prose-archive">
+          <p>Point any podcast app at this address:</p>
+        </div>
+        <p class="feedurl mt-4">
+          <code>https://www.theaverageenthusiasts.com/feed/feed.xml</code>
+        </p>
+        <div class="prose-archive">
+          <p>
+            All 38 episodes are in it, oldest to newest, with the original
+            descriptions and durations. The feed is marked complete, so a
+            well-behaved app will stop checking for new ones &mdash; correctly.
+          </p>
+          <p>
+            You can also just
+            <a href="/">play everything on the archive page</a>; no app required.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="moved" class="story bg-tae-ink-soft">
+      <div class="wrap">
+        <h2 class="section-h">If you subscribed years ago</h2>
+        <div class="prose-archive">
+          <p><strong class="text-white">Do nothing.</strong> It still works.</p>
+          <p>
+            The show&rsquo;s original feed lived at
+            <code class="font-mono text-xs text-stone-300"
+              >assets.theaverageenthusiasts.com/podcast/feed.xml</code
+            >, and that address still answers. It now also carries the standard
+            &ldquo;this feed has moved&rdquo; marker
+            (<code class="font-mono text-xs text-stone-300"
+              >&lt;itunes:new-feed-url&gt;</code
+            >), so Apple Podcasts and most other apps will quietly repoint
+            themselves here the next time they refresh. Nothing breaks in the
+            meantime, and nothing needs to be re-added.
+          </p>
+          <p>
+            The episode audio has not moved at all. It is served from the same
+            place it has been served from since 2017, so every old link,
+            bookmark, and cached enclosure keeps resolving.
+          </p>
+          <p>
+            The reason for the move is unglamorous: a domain and a feed should
+            outlive whatever infrastructure happened to be underneath them at the
+            time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="wrap">
+        <img src="/images/mark.svg" alt="" width="44" height="44" aria-hidden="true" />
+        <p>The Average Enthusiasts &middot; 2017&ndash;2021</p>
+        <p class="foot-links">
+          <a href="/">The archive</a>
+          <span aria-hidden="true">&middot;</span>
+          <a href="/feed/feed.xml">RSS feed</a>
+        </p>
+        <p class="foot-fine">&copy; 2021 The Average Enthusiasts.</p>
+      </div>
+    </footer>
+  </body>
+</html>

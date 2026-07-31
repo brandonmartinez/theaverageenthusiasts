@@ -1,0 +1,249 @@
+@import "tailwindcss";
+
+@theme {
+  /* Straight off the brand sheet in the production archive
+     (Media/Logo Pack/1x/Artboard 1.png). */
+  --color-tae-red: #e74c3c;
+  --color-tae-red-deep: #c0392b;
+  --color-tae-blue: #2980b9;
+  --color-tae-paper: #efefef;
+  --color-tae-ink: #17161a;
+  --color-tae-ink-soft: #201f24;
+
+  /* Bebas Neue and Bodoni 72 Oldstyle are the brand's two faces. Apple
+     machines already have Bodoni 72 Oldstyle, so it leads the serif stack and
+     costs nothing there; Bodoni Moda is the web stand-in. */
+  --font-display:
+    "Bebas Neue", "Haettenschweiler", "Arial Narrow", Impact, sans-serif;
+  --font-serif:
+    "Bodoni 72 Oldstyle", "Bodoni Moda", "Bodoni MT", Didot, Georgia, serif;
+  --font-sans:
+    ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-tae-ink font-sans text-stone-300;
+  }
+  a {
+    @apply text-tae-red underline decoration-tae-red/40 underline-offset-2;
+  }
+  a:hover {
+    @apply text-white decoration-white/60;
+  }
+  audio {
+    @apply mt-4 w-full max-w-lg rounded;
+  }
+  :target {
+    scroll-margin-top: 1.5rem;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply mx-auto w-full max-w-4xl px-5 sm:px-8;
+  }
+
+  .section-h {
+    @apply font-display text-4xl tracking-wide text-white uppercase sm:text-5xl;
+  }
+
+  .prose-archive {
+    @apply mt-5 max-w-2xl text-base leading-relaxed break-words text-stone-400;
+  }
+  .prose-archive code {
+    @apply font-mono text-sm text-stone-300;
+  }
+  .prose-archive p + p,
+  .prose-archive blockquote + p {
+    @apply mt-4;
+  }
+  .prose-archive em {
+    @apply text-stone-200 not-italic;
+  }
+  .prose-archive blockquote {
+    @apply my-5 border-l-2 border-tae-red pl-5 font-serif text-lg leading-relaxed text-stone-200 italic;
+  }
+  .prose-archive blockquote footer {
+    @apply mt-2 font-sans text-xs tracking-wider text-stone-500 uppercase not-italic;
+  }
+
+  /* ── archive banner ─────────────────────────────────────────────── */
+  .banner {
+    @apply border-b border-tae-blue/40 bg-tae-blue/10;
+  }
+  .banner-tag {
+    @apply shrink-0 font-display text-sm tracking-[0.3em] text-tae-blue uppercase;
+  }
+  .banner-text {
+    @apply text-xs leading-relaxed text-stone-400;
+  }
+
+  /* ── hero ───────────────────────────────────────────────────────── */
+  .hero {
+    @apply border-b-4 border-tae-red-deep bg-tae-red;
+  }
+  .tagline {
+    @apply mt-7 max-w-xl font-serif text-xl leading-relaxed text-white/95 sm:text-2xl;
+  }
+  .stats {
+    @apply mt-9 flex flex-wrap gap-x-10 gap-y-4;
+  }
+  .stats dt {
+    @apply font-display text-xs tracking-[0.25em] text-white/70 uppercase;
+  }
+  .stats dd {
+    @apply font-display text-3xl leading-none text-white;
+  }
+
+  /* ── feed strip ─────────────────────────────────────────────────── */
+  .feedstrip {
+    @apply border-b border-white/10 bg-tae-ink-soft;
+  }
+  .feedstrip-lede {
+    @apply max-w-2xl text-sm leading-relaxed text-stone-400;
+  }
+  .feedstrip-lede strong {
+    @apply text-white;
+  }
+  .feedurl {
+    @apply mt-3 overflow-x-auto;
+  }
+  .feedurl code {
+    @apply inline-block rounded border border-tae-red/40 bg-black/40 px-3 py-2 font-mono text-xs text-tae-red sm:text-sm;
+  }
+  .feedstrip-note {
+    @apply mt-3 text-xs text-stone-500;
+  }
+
+  /* ── sections ───────────────────────────────────────────────────── */
+  .story,
+  .hosts,
+  .colophon {
+    @apply border-b border-white/10 py-14 sm:py-16;
+  }
+  .hosts {
+    @apply bg-tae-ink-soft;
+  }
+
+  .host-grid {
+    @apply mt-8 grid gap-8 sm:grid-cols-2;
+  }
+  .host {
+    @apply flex items-start gap-4;
+  }
+  .host img {
+    @apply size-20 shrink-0 rounded-full border-2 border-tae-red/60 object-cover;
+  }
+  .host h3 {
+    @apply font-display text-2xl tracking-wide text-white uppercase;
+  }
+  .host p {
+    @apply mt-1 text-sm leading-relaxed text-stone-400;
+  }
+
+  /* ── episode nav ────────────────────────────────────────────────── */
+  .epnav {
+    @apply border-b border-white/10 bg-black/30 py-6;
+  }
+  .epnav-label {
+    @apply font-display text-xs tracking-[0.3em] text-stone-500 uppercase;
+  }
+  .epnav-links {
+    @apply mt-3 flex flex-wrap gap-3;
+  }
+  .epnav-links a {
+    @apply rounded border border-white/10 px-4 py-2 font-display text-lg tracking-wide text-stone-200 uppercase no-underline;
+  }
+  .epnav-links a:hover {
+    @apply border-tae-red bg-tae-red/10 text-white;
+  }
+  .nav-sub {
+    @apply ml-2 font-sans text-xs tracking-normal text-stone-500 normal-case;
+  }
+
+  /* ── episodes ───────────────────────────────────────────────────── */
+  .season {
+    @apply border-b border-white/10 py-14 sm:py-16;
+  }
+  .season-head {
+    @apply max-w-2xl;
+  }
+  .season-dates {
+    @apply mt-2 font-display text-lg tracking-[0.2em] text-tae-red uppercase;
+  }
+  .season-blurb {
+    @apply mt-3 text-sm leading-relaxed text-stone-400;
+  }
+  .season-blurb em {
+    @apply text-stone-200 not-italic;
+  }
+
+  .ep-list {
+    @apply mt-10 flex flex-col gap-12;
+  }
+  .ep {
+    @apply grid gap-5 sm:grid-cols-[minmax(0,13rem)_minmax(0,1fr)] sm:gap-7;
+  }
+  .ep-noart {
+    @apply hidden aspect-video flex-col items-center justify-center rounded-sm border border-dashed border-white/10 bg-black/20 sm:flex;
+  }
+  .ep-noart span {
+    @apply font-display text-3xl tracking-widest text-white/15;
+  }
+  .ep-noart p {
+    @apply mt-1 text-[0.65rem] tracking-[0.2em] text-white/15 uppercase;
+  }
+  .ep-meta {
+    @apply flex flex-wrap items-center gap-x-3 gap-y-1 text-xs tracking-wider text-stone-500 uppercase;
+  }
+  .ep-num {
+    @apply rounded-sm bg-tae-red px-2 py-0.5 font-display text-sm tracking-widest text-white;
+  }
+  .ep-title {
+    @apply mt-2 font-display text-3xl leading-tight tracking-wide text-white uppercase;
+  }
+  .ep-desc {
+    @apply mt-2 max-w-prose text-sm leading-relaxed text-stone-400;
+  }
+  .ep-dl {
+    @apply mt-2 flex flex-wrap items-center gap-2 text-xs text-stone-500;
+  }
+
+  .notes {
+    @apply mt-4 max-w-prose rounded border border-white/10 bg-black/25;
+  }
+  .notes summary {
+    @apply cursor-pointer px-4 py-2 font-display text-base tracking-widest text-stone-300 uppercase select-none;
+  }
+  .notes summary:hover {
+    @apply text-white;
+  }
+  .notes ul {
+    @apply space-y-1 border-t border-white/10 px-4 py-3 text-sm;
+  }
+  .note-caveat {
+    @apply px-4 pb-3 text-xs text-stone-500;
+  }
+
+  /* ── footer ─────────────────────────────────────────────────────── */
+  .foot {
+    @apply py-12 text-center;
+  }
+  .foot img {
+    @apply mx-auto opacity-70;
+  }
+  .foot p {
+    @apply mt-4 text-sm leading-relaxed text-stone-400;
+  }
+  .foot-links {
+    @apply flex flex-wrap justify-center gap-3 text-sm;
+  }
+  .foot-fine {
+    @apply text-xs text-stone-600;
+  }
+}

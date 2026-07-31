@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title><![CDATA[The Average Enthusiasts]]></title>
+    <description><![CDATA[We're not great at anything, but we're enthusiastic about a lot! A podcast by Brandon Martinez and Kenny Graham, 2017-2021. The show has ended; the complete archive of all 38 episodes lives at https://www.theaverageenthusiasts.com .]]></description>
+    <link>https://www.theaverageenthusiasts.com/</link>
+    <image>
+      <url>https://www.theaverageenthusiasts.com/images/albumcover.jpg</url>
+      <title>The Average Enthusiasts</title>
+      <link>https://www.theaverageenthusiasts.com/</link>
+    </image>
+    <atom:link href="https://www.theaverageenthusiasts.com/feed/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 31 Jul 2026 14:30:37 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Oct 2021 05:00:00 GMT</pubDate>
+    <author><![CDATA[The Average Enthusiasts]]></author>
+    <copyright><![CDATA[2021 The Average Enthusiasts]]></copyright>
+    <language>en</language>
+    <generator>hand-rolled, from the archive</generator>
+    <itunes:author>The Average Enthusiasts</itunes:author>
+    <itunes:summary>We're not great at anything, but we're enthusiastic about a lot! A podcast by Brandon Martinez and Kenny Graham, 2017-2021. The show has ended.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:complete>yes</itunes:complete>
+    <itunes:owner>
+      <itunes:name>The Average Enthusiasts</itunes:name>
+      <itunes:email>contact@theaverageenthusiasts.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Leisure">
+      <itunes:category text="Games"/>
+      <itunes:category text="Hobbies"/>
+      <itunes:category text="Video Games"/>
+    </itunes:category>
+    <itunes:image href="https://www.theaverageenthusiasts.com/images/albumcover.jpg"/>
+    <item>
+      <title><![CDATA[#TAE 037: Mo' Money]]></title>
+      <description><![CDATA[Finances: one of the many interesting aspects in a relationship. Brandon and Kenny catch up and talk about staying in their financial lanes within their marriages, and share some kind-of-helpful and kind-of-not financial tips.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-037</link>
+      <guid isPermaLink="false">aa7f89cc-faaf-425f-9ba2-ec0679757839</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 20 Oct 2021 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-037.mp3" length="60019692" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Finances: one of the many interesting aspects in a relationship. Brandon and Kenny catch up and talk about staying in their financial lanes within their marriages, and share some kind-of-helpful and kind-of-not financial tips.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>41:41</itunes:duration>
+      <itunes:episode>37</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-037.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 036: Pandemic Recap]]></title>
+      <description><![CDATA[Wow, COVID-19 really did throw the world upside down. It's been over a year since we've recorded, so let's spend some time to catch up with Brandon and Kenny.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-036</link>
+      <guid isPermaLink="false">a7a1cb81-e260-4b85-afca-c0a07f19fda6</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 16 Apr 2021 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-036.mp3" length="41617158" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Wow, COVID-19 really did throw the world upside down. It&#x27;s been over a year since we&#x27;ve recorded, so let&#x27;s spend some time to catch up with Brandon and Kenny.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>28:53</itunes:duration>
+      <itunes:episode>36</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-036.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 035: Wash Your Hands!]]></title>
+      <description><![CDATA[With the pandemic taking hold of the world, Brandon and Kenny offer some practical advice on how to avoid COVID-19.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-035</link>
+      <guid isPermaLink="false">708db9fe-b21f-4ab4-b105-f79c1404a02c</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 20 Mar 2020 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-035.mp3" length="28137348" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>With the pandemic taking hold of the world, Brandon and Kenny offer some practical advice on how to avoid COVID-19.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>29:18</itunes:duration>
+      <itunes:episode>35</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-035.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 034: Puppy Love]]></title>
+      <description><![CDATA[There's a new member to the Graham family, and Kenny tells us all about it! The guys discuss current and past pets, as well as cultural acceptance of… eating them?]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-034</link>
+      <guid isPermaLink="false">b9a91fb0-2810-4fb1-9203-c96f7e40086f</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Sun, 01 Mar 2020 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-034.mp3" length="23286096" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>There&#x27;s a new member to the Graham family, and Kenny tells us all about it! The guys discuss current and past pets, as well as cultural acceptance of… eating them?</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>24:15</itunes:duration>
+      <itunes:episode>34</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-034.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 033: Poor Cinema Culture]]></title>
+      <description><![CDATA[Kenny learns that Brandon is very, very uncultured in his cinema tastes – so much so that he can't even name a favorite movie! The duo explores some of their favorite movies, while Kenny tries to drag a true favorite out of Brandon.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-033</link>
+      <guid isPermaLink="false">599328a5-a015-46b7-9407-869a63f962fa</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 14 Feb 2020 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-033.mp3" length="26066778" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Kenny learns that Brandon is very, very uncultured in his cinema tastes – so much so that he can&#x27;t even name a favorite movie! The duo explores some of their favorite movies, while Kenny tries to drag a true favorite out of Brandon.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:09</itunes:duration>
+      <itunes:episode>33</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-033.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 032: Politically Incorrect]]></title>
+      <description><![CDATA[After watching older Disney movies, Brandon reflects on how some of the content would not fly today. Brandon and Kenny talk about being PC in today's culture, and how that's changed over just the past couple of decades.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-032</link>
+      <guid isPermaLink="false">87721794-6721-474c-b237-fc7d02d6f392</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 31 Jan 2020 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-032.mp3" length="26424133" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>After watching older Disney movies, Brandon reflects on how some of the content would not fly today. Brandon and Kenny talk about being PC in today&#x27;s culture, and how that&#x27;s changed over just the past couple of decades.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:31</itunes:duration>
+      <itunes:episode>32</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-032.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 031: Eclectic Effect]]></title>
+      <description><![CDATA[Brandon and Kenny talk about their past mixtapes and playlists, while later Brandon goes on a rant about the Spotify Effect and how it's impacting the music of today.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-031</link>
+      <guid isPermaLink="false">f973e63b-047e-482e-a018-efde2da831a6</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 17 Jan 2020 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-031.mp3" length="29368238" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about their past mixtapes and playlists, while later Brandon goes on a rant about the Spotify Effect and how it&#x27;s impacting the music of today.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>30:35</itunes:duration>
+      <itunes:episode>31</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-031.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 030: Enthusiasts+]]></title>
+      <description><![CDATA[With so many streaming services to choose from today, Brandon and Kenny talk about the ones they're currently subscribed to and their favorite content from each. Brandon also pitches the idea of the end of the movie theater; will it last in Disney's new world of streaming new movies straight to your home?]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-030</link>
+      <guid isPermaLink="false">a08fe7ccbb4c4545919c48a5cac07c8d</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 13 Dec 2019 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-030.mp3" length="47628457" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>With so many streaming services to choose from today, Brandon and Kenny talk about the ones they&#x27;re currently subscribed to and their favorite content from each. Brandon also pitches the idea of the end of the movie theater; will it last in Disney&#x27;s new world of streaming new movies straight to your home?</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>49:36</itunes:duration>
+      <itunes:episode>30</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-030.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 029: Watch Out!]]></title>
+      <description><![CDATA[Kenny introduced Brandon to the world of Overwatch, and now that it's finally available on the Switch he is hooked! Brandon compares Overwatch to some of his past favorite FPS's, and gives his take on what it's like being a new player to such an immersive game.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-029</link>
+      <guid isPermaLink="false">bcd04bb884fb4bad93dce755a62e5286</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 29 Nov 2019 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-029.mp3" length="40369760" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Kenny introduced Brandon to the world of Overwatch, and now that it&#x27;s finally available on the Switch he is hooked! Brandon compares Overwatch to some of his past favorite FPS&#x27;s, and gives his take on what it&#x27;s like being a new player to such an immersive game.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>42:03</itunes:duration>
+      <itunes:episode>29</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-029.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 028: Wedding Bells]]></title>
+      <description><![CDATA[After nearly a year-long hiatus, Brandon and Kenny are back to resume the much anticipated Season Two of The Average Enthusiasts. So what's been going on for the last year? I think I hear wedding bells in the not so distant past…]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-028</link>
+      <guid isPermaLink="false">d07d06b006ea11ea8d3d75ef1675a1fb</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 15 Nov 2019 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-028.mp3" length="30439885" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>After nearly a year-long hiatus, Brandon and Kenny are back to resume the much anticipated Season Two of The Average Enthusiasts. So what&#x27;s been going on for the last year? I think I hear wedding bells in the not so distant past…</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>31:42</itunes:duration>
+      <itunes:episode>28</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-028.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 027: Season 2!]]></title>
+      <description><![CDATA[After a short hiatus, Brandon and Kenny are back to kick off season two of The Average Enthusiasts! And speaking of seasons, what better to talk about than our favorite TV shows!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-027</link>
+      <guid isPermaLink="false">b9493c34927045029f1ff22ae68afc2a</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 18 Jan 2019 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-027.mp3" length="19621742" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>After a short hiatus, Brandon and Kenny are back to kick off season two of The Average Enthusiasts! And speaking of seasons, what better to talk about than our favorite TV shows!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>23:22</itunes:duration>
+      <itunes:episode>27</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-027.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 026: A Very Average Anniversary]]></title>
+      <description><![CDATA[We're celebrating our one year anniversary of podcasting! Brandon and Kenny reflect on the last year of podcasts and talk about the future. We look forward to hearing from all of you on what you want to hear this next year!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-026</link>
+      <guid isPermaLink="false">77f1e01f2c1c44dcb5bac2325a94bf17</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 21 Sep 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-026.mp3" length="8137582" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>We&#x27;re celebrating our one year anniversary of podcasting! Brandon and Kenny reflect on the last year of podcasts and talk about the future. We look forward to hearing from all of you on what you want to hear this next year!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>09:41</itunes:duration>
+      <itunes:episode>26</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-026.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 025: Halo Bones]]></title>
+      <description><![CDATA[Kenny recently picked up an Xbox One and Halo: The Master Chief Collection. Brandon and Kenny talk about some of the good, and bad, of the franchise and state of the Xbox.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-025</link>
+      <guid isPermaLink="false">766989574e5a4240916497da97b8cd3b</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 14 Sep 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-025.mp3" length="16105765" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Kenny recently picked up an Xbox One and Halo: The Master Chief Collection. Brandon and Kenny talk about some of the good, and bad, of the franchise and state of the Xbox.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>19:11</itunes:duration>
+      <itunes:episode>25</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-025.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 024: We're Done with MoviePass]]></title>
+      <description><![CDATA[Brandon and Kenny revisit the MoviePass debacle and continue to share their frustrations on the service. Is it time to jump ship? We'll see! Note: This was recorded on 07/29/2018, so there are some out-of-date comments made. However, our position still stands!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-024</link>
+      <guid isPermaLink="false">d8616e21dfba4b5f92fcfb4b9afacc67</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Fri, 17 Aug 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-024.mp3" length="28089491" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny revisit the MoviePass debacle and continue to share their frustrations on the service. Is it time to jump ship? We&#x27;ll see! Note: This was recorded on 07/29/2018, so there are some out-of-date comments made. However, our position still stands!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>33:27</itunes:duration>
+      <itunes:episode>24</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-024.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 023: Föder]]></title>
+      <description><![CDATA[Brandon and Kenny talk about all the crazy changes that have been happening over the past month and try to justify their poor posting schedule. Who knew that introducing a new kid in the world would change your priorities!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-023</link>
+      <guid isPermaLink="false">03ad8e0946cf4fd0a0a5c276e8cec185</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Sun, 01 Jul 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-023.mp3" length="20314718" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about all the crazy changes that have been happening over the past month and try to justify their poor posting schedule. Who knew that introducing a new kid in the world would change your priorities!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>28:13</itunes:duration>
+      <itunes:episode>23</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-023.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 022: The Great Outdoors]]></title>
+      <description><![CDATA[After a month-long hiatus, Brandon and Kenny are back to talk about the great outdoors… and how many animals Kenny has inadvertently killed.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-022</link>
+      <guid isPermaLink="false">26c7e0c538874586a73a660a9c16eb3f</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 13 Jun 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-022.mp3" length="29700097" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>After a month-long hiatus, Brandon and Kenny are back to talk about the great outdoors… and how many animals Kenny has inadvertently killed.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>30:57</itunes:duration>
+      <itunes:episode>22</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-022.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 021: MoviePass Frustrations]]></title>
+      <description><![CDATA[Brandon and Kenny talk about the recent changes to the MoviePass unlimited plan and their frustrations with it. They also discuss ways to make it better, or maybe ideas on starting a service themselves…]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-021</link>
+      <guid isPermaLink="false">014185d40c527edc1ee8fdee45fc2577</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 09 May 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-021.mp3" length="27417622" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about the recent changes to the MoviePass unlimited plan and their frustrations with it. They also discuss ways to make it better, or maybe ideas on starting a service themselves…</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>28:34</itunes:duration>
+      <itunes:episode>21</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-021.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 020: Story Time!]]></title>
+      <description><![CDATA[Brandon and Kenny managed to poorly plan this week's (late) episode, so they decided to tell some stories! They even talk about some of their behind-the-scenes podcast recording tips.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-020</link>
+      <guid isPermaLink="false">61794bcf16c129b62cf8c11c0be3ae22</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 18 Apr 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-020.mp3" length="22591029" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny managed to poorly plan this week&#x27;s (late) episode, so they decided to tell some stories! They even talk about some of their behind-the-scenes podcast recording tips.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>23:32</itunes:duration>
+      <itunes:episode>20</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-020.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 019: Nintendo Direct Recap (March 2018)]]></title>
+      <description><![CDATA[Brandon and Kenny talk about the recent Nintendo Direct announcements, including the new games coming soon on the Nintendo Switch!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-019</link>
+      <guid isPermaLink="false">f7ae8523d12a943c49577caeaf7a6525</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 28 Mar 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-019.mp3" length="22040211" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about the recent Nintendo Direct announcements, including the new games coming soon on the Nintendo Switch!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>26:15</itunes:duration>
+      <itunes:episode>19</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-019.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 018: Weird and Memorable Food]]></title>
+      <description><![CDATA[Brandon and Kenny talk about some of the weirdest, and some of the best, food they've eaten. Foodies unite!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-018</link>
+      <guid isPermaLink="false">d83fb7c95d77f312f504e5c898e0eb7f</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 14 Mar 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-018.mp3" length="26930490" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about some of the weirdest, and some of the best, food they&#x27;ve eaten. Foodies unite!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>37:24</itunes:duration>
+      <itunes:episode>18</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-018.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 017: History Month]]></title>
+      <description><![CDATA[As we close out the month of February, Brandon and Kenny talk about Black History Month and other cultural awareness issues.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-017</link>
+      <guid isPermaLink="false">143e2f2ebd4dc06f5c13b3d2ffb4fdea</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 28 Feb 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-017.mp3" length="29307634" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>As we close out the month of February, Brandon and Kenny talk about Black History Month and other cultural awareness issues.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>30:32</itunes:duration>
+      <itunes:episode>17</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-017.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 016: In Sickness and Health]]></title>
+      <description><![CDATA[Brandon and Kenny have been hit hard by illness the past few weeks, so they talk about the great time they had while not making podcasts.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-016</link>
+      <guid isPermaLink="false">8f8d3828fc225c9e60dc3c1fae593c75</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 14 Feb 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-016.mp3" length="24399121" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny have been hit hard by illness the past few weeks, so they talk about the great time they had while not making podcasts.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>25:25</itunes:duration>
+      <itunes:episode>16</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-016.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 015: Star Wars]]></title>
+      <description><![CDATA[Brandon and Kenny bounce around the Star Wars galaxy talking about their favorite characters, moments, and more! And minor correction: it's green, not blue! Sorry!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-015</link>
+      <guid isPermaLink="false">9d466ceed0cb0be3b4bcb2fad189886e</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Thu, 18 Jan 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-015.mp3" length="25016865" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny bounce around the Star Wars galaxy talking about their favorite characters, moments, and more! And minor correction: it&#x27;s green, not blue! Sorry!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>26:04</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <itunes:image href="https://www.theaverageenthusiasts.com/images/episodes/tae-episode-015.jpg"/>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 014: Happy New Year!]]></title>
+      <description><![CDATA[Happy New Year, Enthusiasts! Brandon and Kenny kick off the new year by talking about their favorite things from 2017. Also, some news on our new publishing cycle.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-014</link>
+      <guid isPermaLink="false">7b14c053f1fdbd631a89f8f7d120fc34</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Mon, 01 Jan 2018 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-014.mp3" length="25153408" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Happy New Year, Enthusiasts! Brandon and Kenny kick off the new year by talking about their favorite things from 2017. Also, some news on our new publishing cycle.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>26:12</itunes:duration>
+      <itunes:episode>14</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 013: Merry Christmas!]]></title>
+      <description><![CDATA[Merry Christmas, Enthusiasts! Brandon and Kenny talk about days of Christmas past (and present), including some of their favorite gifts.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-013</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-013.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Mon, 25 Dec 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-013.mp3" length="28619941" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Merry Christmas, Enthusiasts! Brandon and Kenny talk about days of Christmas past (and present), including some of their favorite gifts.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>29:49</itunes:duration>
+      <itunes:episode>13</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 012: Breath of Fresh Air]]></title>
+      <description><![CDATA[Brandon and Kenny talk about the latest Zelda: Breath of the Wild DLC. Special guest appearance by Hogules.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-012</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-012.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 20 Dec 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-012.mp3" length="25755301" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about the latest Zelda: Breath of the Wild DLC. Special guest appearance by Hogules.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>26:50</itunes:duration>
+      <itunes:episode>12</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 011: Origins]]></title>
+      <description><![CDATA[Brandon and Kenny show how average they really are when it comes to the world of biology. They talk about the upcoming addition to the Martinez family: baby number three!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-011</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-011.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 13 Dec 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-011.mp3" length="21207589" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny show how average they really are when it comes to the world of biology. They talk about the upcoming addition to the Martinez family: baby number three!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>22:05</itunes:duration>
+      <itunes:episode>11</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 010: Vroom!]]></title>
+      <description><![CDATA[Finally changing up to something other than video games, Brandon and Kenny talk about their past cars and experiences with them.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-010</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-010.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 06 Dec 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-010.mp3" length="28749733" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Finally changing up to something other than video games, Brandon and Kenny talk about their past cars and experiences with them.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>29:57</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 009: The SNES Classic]]></title>
+      <description><![CDATA[Brandon and Kenny spent some time with the SNES Classic and are ready to share some thoughts!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-009</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-009.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 29 Nov 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-009.mp3" length="28149925" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny spent some time with the SNES Classic and are ready to share some thoughts!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>29:19</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 008: Thankful for…]]></title>
+      <description><![CDATA[Happy Thanksgiving! Brandon and Kenny reminisce on some Thanksgiving memories, compare their favorite foods, and talk a little too much on how awesome pumpkin pie is!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-008</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-008.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 22 Nov 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-008.mp3" length="25227301" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Happy Thanksgiving! Brandon and Kenny reminisce on some Thanksgiving memories, compare their favorite foods, and talk a little too much on how awesome pumpkin pie is!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>26:17</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 007: Super Mario Odyssey Follow Up]]></title>
+      <description><![CDATA[Brandon and Kenny recap their experience playing Super Mario Odyssey, as well as throw back to some old-school Mario days.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-007</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-007.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 15 Nov 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-007.mp3" length="30399013" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny recap their experience playing Super Mario Odyssey, as well as throw back to some old-school Mario days.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>31:40</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 006: Kenny Is Sick! Time for Some Announcements]]></title>
+      <description><![CDATA[Kenny is sick! So instead, you get a few minutes of Brandon talking about our internet presence.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-006</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-006.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 08 Nov 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-006.mp3" length="2588197" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Kenny is sick! So instead, you get a few minutes of Brandon talking about our internet presence.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>02:42</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 005: Super Mario Odyssey - Initial Thoughts]]></title>
+      <description><![CDATA[Super Mario Odyssey came out this last Friday on the Nintendo Switch, and Brandon and Kenny have been getting into it!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-005</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-005.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 01 Nov 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-005.mp3" length="22730149" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Super Mario Odyssey came out this last Friday on the Nintendo Switch, and Brandon and Kenny have been getting into it!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>23:41</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 004: Nostalgia of the 90s and 00s]]></title>
+      <description><![CDATA[Kicking back for a walk down memory lane, Brandon and Kenny reminisce about some of their favorite 90s and 00s content. Games, TV shows, movies, and more!]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-004</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-004.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Wed, 18 Oct 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-004.mp3" length="28273189" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Kicking back for a walk down memory lane, Brandon and Kenny reminisce about some of their favorite 90s and 00s content. Games, TV shows, movies, and more!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>29:27</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 003: Our Favorite Video Games]]></title>
+      <description><![CDATA[Still amped up on video games, Brandon and Kenny talk about games that they're currently playing, as well as their top-three all-time-favorite games.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-003</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-003.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Tue, 10 Oct 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-003.mp3" length="29720485" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Still amped up on video games, Brandon and Kenny talk about games that they&#x27;re currently playing, as well as their top-three all-time-favorite games.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>30:57</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 002: The Current State of the Nintendo Switch]]></title>
+      <description><![CDATA[Brandon and Kenny talk about the current state of the Nintendo Switch, including discussion on the hardware, upcoming games and announcements, and how the current games are holding up before the big holiday season.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-002</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-002.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Mon, 02 Oct 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-002.mp3" length="22509312" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about the current state of the Nintendo Switch, including discussion on the hardware, upcoming games and announcements, and how the current games are holding up before the big holiday season.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>23:27</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 001: Apple's iPhone 8/X/Watch Announcements]]></title>
+      <description><![CDATA[Brandon and Kenny talk about last week’s Apple announcements, including the iPhone 8 and X, iOS 11, and the Apple Watch Series 3.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-001</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-001.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Sun, 24 Sep 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-001.mp3" length="24855589" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about last week’s Apple announcements, including the iPhone 8 and X, iOS 11, and the Apple Watch Series 3.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>25:53</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+    </item>
+    <item>
+      <title><![CDATA[#TAE 000: Introduction]]></title>
+      <description><![CDATA[Brandon and Kenny talk about what the podcast is and why they're doing it.]]></description>
+      <link>https://www.theaverageenthusiasts.com/#tae-episode-000</link>
+      <guid isPermaLink="false">http://assets.theaverageenthusiasts.com/audio/tae-episode-000.mp3</guid>
+      <dc:creator><![CDATA[The Average Enthusiasts]]></dc:creator>
+      <pubDate>Sun, 17 Sep 2017 05:00:00 GMT</pubDate>
+      <enclosure url="https://taestorage.blob.core.windows.net/podcast/tae-episode-000.mp3" length="7980709" type="audio/mpeg"/>
+      <itunes:author>The Average Enthusiasts</itunes:author>
+      <itunes:summary>Brandon and Kenny talk about what the podcast is and why they&#x27;re doing it.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>08:19</itunes:duration>
+      <itunes:episode>0</itunes:episode>
+    </item>
+  </channel>
+</rss>

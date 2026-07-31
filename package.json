@@ -1,0 +1,19 @@
+{
+  "name": "theaverageenthusiasts",
+  "private": true,
+  "scripts": {
+    "css": "tailwindcss -i ./styles/tailwind.css -o ./src/styles.css",
+    "generate": "python3 scripts/generate.py",
+    "dev": "concurrently -k \"npm:css -- --watch\" \"vite src --port 4173 --open\"",
+    "build": "npm run css -- --minify && rm -rf _site && mkdir -p _site && cp -R src/. _site/ && cp CNAME _site/",
+    "clean": "rm -rf _site src/styles.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "concurrently": "^10.0.3",
+    "vite": "^8.1.5"
+  },
+  "overrides": {
+    "shell-quote": "^1.10.0"
+  }
+}
